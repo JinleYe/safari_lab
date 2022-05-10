@@ -35,7 +35,7 @@ CREATE TABLE assignments(
 INSERT INTO enclosures(name, capacity) VALUES ('big cat field', 20);
 INSERT INTO enclosures(name, capacity) VALUES ('snake container', 15);
 INSERT INTO enclosures(name, capacity) VALUES ('fish cantainer', 30);
-INSERT INTO enclosures(name, capacity) VALUES ('monkey field', 27);
+INSERT INTO enclosures(name, capacity,closedForMaintenance) VALUES ('monkey field', 27,true);
 
 
 INSERT INTO animals(name, type, age, enclosure_id) VALUES ('Tony', 'Tiger', 59, 1);
