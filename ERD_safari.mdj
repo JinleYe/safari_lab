@@ -2500,7 +2500,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGArjIUCKHWRYE="
 							},
-							"name": "employId",
+							"name": "employeeId",
 							"type": "INTEGER",
 							"length": 0,
 							"foreignKey": true
